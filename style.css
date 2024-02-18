@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/Background.png);
+    background-size: cover;
+}
+.container{
+    background-color:linear-gradient(white 20%, white 5%);
+    width:90%;
+    max-width: 70%;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    border: 10px solid black;
+
+}
+.container h2{
+    text-align: center;
+    color: black;
+    font-weight:bold;
+    font-size: 50px;
+    text-shadow: 50px;
+    box-shadow: 10px;
+}
+
+.container h2 img{
+    margin-left:5px;
+    width: 100px;
+}
+
+.container h3{
+    width: 300px;
+    margin-left: 30%;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    margin-top: 40px;
+    border: 2px solid black;
+}
+
+.diff_level{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    margin: 40px 150px;
+}
+
+.selected{
+    border: 5px solid white;
+}
+
+.diff_level button{
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color:black;
+    border-radius: 10px;
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start button{
+    padding: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.start button img{
+    width: 40px;
+    margin-left: 5px;
+}
+
+.start button:hover{
+    background-color: rgb(182, 181, 181);
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.grid h3{
+    font: size 30px;
+    border: 5px solid rgb(41, 8, 8);
+    text-align: center;
+}
+
+.item1{
+    display: flex;
+    justify-content:space-around;
+    margin: 10px 10px;
+}
+
+.item1 p{
+    font-weight: bold;
+    color: brown;
+    width: 40px;
+    margin-top: 30px;
+}
+
+.keyboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.keyboard button{
+    background-color:lightskyblue;
+    border: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    font-size:1rem;
+    border-radius: 50px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.keyboard button:hover{
+    background-color:rgb(180, 206, 215);
+}
+
+.keyboard button:disabled{
+    background-color:gray;
+}
+.grid img{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.won-state{
+    display: none;
+}
+
+.lost-state{
+    display: none;
+}
+
+.won-state h3,
+.lost-state h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.won-state button,
+.lost-state button {
+    margin: 50px 350px;
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+}
+
+.won-state button:hover,
+.lost-state button:hover {
+    color: black;
+    background-color: aliceblue;
+}
