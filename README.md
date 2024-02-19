@@ -1,0 +1,1 @@
+This is a simple Hangman Project using Javascript,Html,CSS. o play, just guess a letter by typing your guess on your keyboard. If you guess incorrectly 7 times, you lose. If you guess the word before that happens, you win. After you win or lose, you can restart the game by pressing the Retry button.
